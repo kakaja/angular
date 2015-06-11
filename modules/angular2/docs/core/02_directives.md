@@ -126,9 +126,9 @@ class Pane {                      | Component controller class
   }
 
   // Public API
-  toggle() => this.open = !this.open;
-  open() => this.open = true;
-  close() => this.open = false;
+  toggle = () => this.open = !this.open;
+  open = () => this.open = true;
+  close = () => this.open = false;
 }
 ```
 
